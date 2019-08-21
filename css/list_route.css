@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+.lx_banner{ width:100%; margin:0 auto; position:relative;}
+.lx_banner .lxban_bg{ width:100%; display:block; max-width:640px;}
+.lx_bancon{ width:100%; margin:0 auto; position:absolute; bottom:5%; left:0;}
+.lx_ban1{ width:100%; text-align:center; font-size:1.2rem; line-height:2.1rem; color:#484747; margin-bottom:2%;}
+.lxban_img1{ display:inline-block; width:7.2%; max-width:43px; vertical-align:middle; margin-right:1%;}
+.lx_ban2{ width:54%; margin:0 auto; font-size:1.2rem; line-height:2.1rem; color:#484747; margin-bottom:2%;}
+.lxban_img2{ display:inline-block; width:13.2%; max-width:43px; vertical-align:middle; margin-right:1%; float:left;}
+.lx_ban2 span{ font-size:1.0rem;}
+.lx_ban3{ line-height:1.4rem;}
+.lxban_swt{ width:66%; margin:0 auto; clear:both; overflow:hidden;}
+.lxban_swt a{ width:41.5%; display:inline-block; float:left; font-size:1.1rem; line-height:240%; text-align:center; margin:2% 4.25% 0; color:#fff; border-radius:0.5rem;}
+.lxban_swt a.lxban_zx{ background-color:#49c18f;}
+.lxban_swt a.lxban_zl{ background-color:#ff8a00;}
+
+/*地图*/
+.lx_ditu{ width:100%; margin:0 auto; position:relative;}
+.lx_bg{ width:100%; display:block;}
+.lx_ditu1{ width:96.6%; margin:0 auto; position:absolute; bottom:7.5%; left:1.7%;}
+.lx_ditu1 img{ width:100%; max-width:618px; display:block;}
+/*路线标题*/
+.lx_tit{ width:100%; margin:0 auto;}
+.lx_tit img{ width:100%; display:block;}
+
+/*路线方式*/
+.lx_fs{ width:100%; margin:0 auto; position:relative;}
+.lx_fs1{ width:96.875%; margin:0 auto; position:absolute; top:11%; left:1.5625%;}
+.lx_fs1 ul{ width:100%; margin:0 auto; clear:both; overflow:hidden;}
+.lx_fs1 ul li{ width:19.35%; float:left; background-color:#c3c3c3; margin-right:0.8%; text-align:center; padding:0.4% 0 1%; color:#fff;}
+.lx_fs1 ul li a{ color:#fff; width:100%; display:block;}
+.lx_fs1 ul li.lx_fsbc{ background-color:#c3b58e;}
+.lx_fs1 ul li.noright{ margin-right:0;}
+/*.lx_fs1 ul li:active{ background-color:#c3b58e;}*/
+.lx_fs1 ul li img{ width:40%; max-width:48px; display:block; margin:0 auto;}
+.lx_fs1 ul li p{ width:100%; text-align:center; font-size:1.0rem; line-height:130%;}
+
+/*公交*/
+.lx_lx1{ width:100%; margin:0 auto; background:url(/images/lx_bg3.jpg) no-repeat; background-size:100% 100%; padding-bottom:4%; /*position:relative;*/}
+.lx_lx1_1{ width:92.875%; margin:0 auto; /*position:absolute; top:0; left:1.5625%;*/ background-color:rgba(195,181,142,0.3); border-radius:0.4rem; font-size:0.9rem; color:#414141; padding:2% 2%; line-height:1.3rem;}
+.lx_lx1_1 h1{ font-size:0.9rem; line-height:1.3rem;}
+.lx_lx1_1 p span{ color:#d30000;}
+
+/*地铁*/
+.lx_lx2{ width:100%; margin:0 auto; background:url(/images/lx_bg4.jpg) no-repeat; background-size:100% 100%; padding-bottom:4%; /*position:relative;*/}
+.lx_lx2_1{ width:93.875%; margin:0 auto; /*position:absolute; top:0; left:1.5625%;*/ background-color:rgba(198,198,198,0.3); border-radius:0.4rem; font-size:0.9rem; color:#414141; padding:2% 1.5%; line-height:1.2rem;}
+.lx_lx2_1 h1{ font-size:0.9rem;}
+.lx_lx2_1 p span{ color:#d30000;}
+
+.lx_lx3{ background:url(/images/lx_bg5.jpg) no-repeat; background-size:100% 100%; padding-bottom:4%;}
+.lx_lx5{ background:url(/images/lx_bg7.jpg) no-repeat; background-size:100% 100%; padding-bottom:4%;}
+.lx_lx6{ background:url(/images/lx_bg8.jpg) no-repeat; background-size:100% 100%; padding-bottom:4%;}
+
+.lx_wl{ width:100%; margin:0 auto; background:url(/images/lx_bg6.jpg) no-repeat; background-size:100% 100%; padding-bottom:4%;}
+.lx_wl a{ display:block; width:62.5%; text-align:center; margin:0 auto; font-size:1.2rem; line-height:3.8rem; border-radius:0.5rem; color:#fff; background-color:#ffb400;}
+
+.lx_dh{ width:100%; margin:0 auto; background:url(/images/lx_bg9.jpg) no-repeat; background-size:100% 100%; padding-bottom:9%;}
+.lx_dh a{ display:block; width:62.5%; text-align:center; margin:0 auto; font-size:1.2rem; line-height:3.8rem; border-radius:0.5rem; color:#fff; background-color:#ff4e00;}
+
+
+/*底部*/
+.foot{ width:100%; background-color:#c2b58e; position:relative; /*margin-top:1.5rem;*/ padding-bottom:2rem}
+.zhui{ width:80%; background-color:#fff; color:#c2b58e; font-size:1.1rem; text-align:center; line-height:4.2rem;position:absolute; top:-10%; left:10%; border-bottom-left-radius:1.5rem; border-bottom-right-radius:1.5rem;}
+.foot h1{ width:100%;}
+.foot h1 img{ width:100%; max-width:640px; display:block}
+.foot h3{ text-align:center; line-height:2rem; font-size:1.1rem; color:#fff; font-weight:normal}
+.foot h2{ width:45%; margin:0 auto; font-size:1.1rem; overflow:hidden; color:#fff; font-weight:normal}
+.foot h2 p{ width:25%; float:left;}
+.foot h2 span{ width:75%; float:left; display:block}
+
+.foot h4{ width:100%; overflow:hidden; padding-top:3.5rem; height:3rem}
+.foot h4 a{ width:16.5%; float:left; display:block; text-align:center; line-height:1.2rem; border-right:1px solid #fff; color:#fff; font-weight:normal; font-size:1rem; box-sizing:border-box}
+
+#lian{ border:none}

@@ -1,0 +1,4 @@
+INSERT INTO `wapmz_member_space` VALUES('1','10','0','admin的空间','','person','','');
+INSERT INTO `wapmz_member_space` VALUES('2','10','0','王妙莹的空间','','person','','');
+INSERT INTO `wapmz_member_space` VALUES('3','10','0','林铮的空间','','person','','');
+INSERT INTO `wapmz_member_space` VALUES('4','10','0','任艳婷的空间','','person','','');

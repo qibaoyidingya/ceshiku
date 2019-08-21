@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; font-family:"微软雅黑"; max-width:640px; min-width:320px; margin:0 auto}
+a{ text-decoration:none;}
+p,div,h1,h2,h3,h4,h5,h6,ul,li,span{ margin:0; padding:0}
+li{ list-style:none;}
+
+
+/*头图*/
+.totu{ width:100%; position:relative}
+.totu img{ width:100%; max-width:640px; display:block}
+.dianhua01{ width:12rem; height:3rem; position:absolute; right:1.5%; top:0.5rem}
+.totu p{ width:3rem; height:3rem;position:absolute; left:1.5%; top:0.3rem; cursor: pointer}
+
+.tupian{ width:100%;}
+.tupian img{ width:100%; max-width:640px;}
+
+.toptu01{ width:25%; margin:0 auto; overflow:hidden; position:absolute; bottom:1rem; left:42%}
+.toptu01 li{ width:1.4rem; float:left; height:0.5rem; margin-left:3%; background-color:#d0d0d0; font-size:0; cursor:pointer}
+.toptu01 .on{ background-color:#ffcd37}
+#focus02{ position:relative}
+
+
+
+/*banner图下面*/
+.main01{ width:100%; position:relative}
+.main01 img{ width:100%; max-width:640px; display:block; margin-top:3rem}
+.main01 h1{ width:60%; padding-bottom:1rem;background-color: rgba(205,194,162,0.8); position:absolute; right:3%; top:-5%; border-radius:10%; padding-top:6%}
+.main01 h1 p{ font-size:1.1rem; color:#FFF; line-height:1.5rem; padding:0 3%; font-weight:normal;}
+.main01 h1 span{ font-size:1.1rem; color:#FFF; width:94%; margin:0 auto;font-weight:normal; display:block; line-height:1.5rem; padding:4% 0; border-bottom:1px dashed #FFFFFF}
+.main01 h1 a{ width:50%; height:2.8rem; border-radius:8px; background-color:#ffc000; line-height:2.8rem; text-align:center; margin:0 auto; display:block; margin-top:0.8rem; font-size:1.1rem; font-weight:normal; color:#FFF; box-shadow:4px 4px #c57400}
+
+.main01 ul{ width:94%; margin:0 auto; overflow:hidden; position:absolute; bottom:2%; left:2.5%}
+.main01 ul li{ width:18%; float:left; margin-left:2%; background-color:rgba(255,255,255,0.5); border-radius:8px; text-align:center; font-size:1rem; color:#4f413c; padding:3% 0}
+#elie{ background-color:rgba(255,192,0,0.8)}
+
+/*安享尊荣，重新新生*/
+.xinsheng{ width:100%; margin-top:0.5rem; position:relative}
+.xinsheng img{ width:100%; max-width:640px;}
+.xinsheng h1{ width:73%; background-color:rgba(255,255,255,0.6); padding:1.5rem 0;position:absolute; top:15%; right:3%; border-radius:15%; font-weight:normal;}
+.xinsheng h1 p{ font-size:1rem; color:#4a4a4a; font-weight:normal; line-height:1.5rem; padding:3% 5%}
+.quan{ width:100%; overflow:hidden; position:absolute; top:46%; left:0 }
+.xinsheng ul{ width:100%; overflow:hidden; margin-top:0.65rem;}
+.xinsheng ul li{ width:29%; float:left; margin-left:4%; box-sizing:border-box; padding:2.8rem 0; border-radius:50%; border:6px solid rgba(200,188,153,0.6); text-align:center; background-color:rgba(255,255,255,0.6); font-size:1.1rem}
+#fwdx{ background-color:rgba(200,188,153,1); border:6px solid rgba(255,255,255,0.7); padding:3.6rem 0}
+.xinsheng h3{ position:absolute; bottom:2.5%; left:0;overflow:hidden}
+
+.xin01{ width:15rem; float:left; display:block; height:3.8rem; background-color:#c5b381; line-height:3.8rem; background-image:url(../images/dianhua01_07.jpg); background-size:2.7rem 2.7rem; background-repeat:no-repeat; background-position:1rem 0.5rem; border-radius:10px; color:#FFF; font-size:1.3rem; text-indent:3.5em; margin-left:2.2rem;}
+
+.xin02{ width:10rem; line-height:3.8rem; text-align:center; border-radius:10px; color:#FFF; font-size:1.3rem; background-color:#ffb400; display:block; float:left; margin-left:1.2rem}
+
+/*医养结合，个性护理*/
+.jiehe{ width:100%; margin-top:1rem; position:relative}
+.jiehe ul{ width:100%;}
+.jiehe ul li{ width:100%; position:relative;}
+.jiehe ul li img{ width:100%; max-width:640px;}
+.jiehe ul li h1{ width:60%; background-color:rgba(194,181,142,0.8); height:17rem; position:absolute; bottom:7%; right:3%; padding-top:5%}
+.jiehe ul li h1 p{ line-height:1.8rem; color:#FFF; font-weight:normal; font-size:1rem; padding-left:4%}
+.jiehe h2{ width:6%; }
+.jiehe h2 img{ width:100%; max-width:35px;}
+.prev{ position:absolute; top:52%; left:4%; cursor:pointer}
+.next{ position:absolute; top:52%; right:4%; cursor:pointer}
+
+
+/*预约参观*/
+.can{ width:100%;position:relative}
+.can img{ width:100%; max-width:640px;}
+.can01{ width:18.5rem; display:block; height:3.8rem;position:absolute; top:1.5rem; left:1.2rem}
+.can02{ width:10.5rem; display:block;position:absolute; top:1.5rem; right:0.8rem; height:3.8rem}
+
+/*1+N护理模式*/
+.addn{ width:100%; position:relative}
+.addn img{ width:100%; max-width:640px;}
+.addn p{color:#454545; font-size:1.1rem; line-height:1.8rem; position:absolute; top:15%; left:0; text-align:center; width:100%;}
+
+/*全维度贴心照护*/
+.quanweidu{ width:100%; background-image:url(../images/zhoahu_10.jpg); background-size:100%; background-repeat:no-repeat; padding-bottom:8%}
+.quanweidu p{ width:80%; margin:0 auto; line-height:2rem; font-size:1.1rem; color:#3a3a3a; padding-top:20%}
+
+.zhaohu{ width:100%; margin-top:1rem; position:relative; background-color:#f4f4f4; padding-bottom:2rem}
+.zhaohu01 ul{ width:100%;}
+.zhaohu01 ul li{ width:100%;}
+.zhaohu01 ul li img{ width:100%; max-width:640px;}
+.zhaohu01 ul li p{ padding:0 5%; margin-top:0.5rem; font-size:1.1rem; color:#717171; padding-bottom:1rem}
+
+.zhaohu02{ width:40%; position:absolute; bottom:3%; right:0}
+.zhaohu02 ul li{ width:1.8rem; height:1rem; margin-left:0.3rem; border-radius:0.5rem; background-color:#d0d0d0; float:left; cursor:pointer; font-size:0}
+.zhaohu02 ul { width:100%; overflow:hidden}
+.zhaohu02 ul .on{ background-color:#ffcd37}
+
+
+/*优质服务*/
+.youzhi{ width:100%; margin-top:0.5rem; position:relative}
+.you01{ width:100%;}
+.you01 ul{ width:100%}
+.you01 ul li{ width:100%; position:relative}
+.you01 ul li img{ width:100%; max-width:640px;}
+.you01 ul li h1{ width:11rem; height:8rem; background-color:rgba(201,87,49,0.6); position:absolute; top:35%; left:6%}
+.you01 ul li h1 p{ font-weight:normal; font-size:1.1rem; color:#FFF; line-height:1.5rem; padding-left:3%; padding-right:1%; padding-top:1rem; }
+ 
+
+.you02{ width:35%; position:absolute; bottom:10%; right:5%;}
+.you02 ul{ width:100%; overflow:hidden}
+.you02 ul li{ width:2.8rem; height:1rem; float:left; border-radius:4px; margin-left:3%; background-color:#d0d0d0; cursor:pointer; font-size:0}
+.you02 ul .on{ background-color:#ffcd37}
+
+
+/*底部*/
+.foot{ width:100%; background-color:#c2b58e; position:relative; margin-top:1.5rem; padding-bottom:2rem}
+.zhui{ width:80%; background-color:#fff; color:#c2b58e; font-size:1.1rem; text-align:center; line-height:4.2rem;position:absolute; top:-10%; left:10%; border-bottom-left-radius:1.5rem; border-bottom-right-radius:1.5rem;}
+.foot h1{ width:100%;}
+.foot h1 img{ width:100%; max-width:640px; display:block}
+.foot h3{ text-align:center; line-height:2rem; font-size:1.1rem; color:#fff; font-weight:normal}
+.foot h2{ width:45%; margin:0 auto; font-size:1.1rem; overflow:hidden; color:#fff; font-weight:normal}
+.foot h2 p{ width:25%; float:left;}
+.foot h2 span{ width:75%; float:left; display:block}
+
+.foot h4{ width:100%; overflow:hidden; padding-top:3.5rem; height:3rem}
+.foot h4 a{ width:16.5%; float:left; display:block; text-align:center; line-height:1.2rem; border-right:1px solid #fff; color:#fff; font-weight:normal; font-size:1rem; box-sizing:border-box}
+
+#lian{ border:none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

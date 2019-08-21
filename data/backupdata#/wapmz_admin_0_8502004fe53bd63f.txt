@@ -1,0 +1,4 @@
+INSERT INTO `wapmz_admin` VALUES('1','10','admin','4be7fc928c5efb40e0ea','admin','','','','1517361158','172.16.66.203');
+INSERT INTO `wapmz_admin` VALUES('2','1','wangmiaoying','c3949ba59abbe56e057f','王妙莹','','','','1517020880','172.16.3.113');
+INSERT INTO `wapmz_admin` VALUES('3','1','linzheng','c3949ba59abbe56e057f','林峥','','','','1514942758','172.16.66.79');
+INSERT INTO `wapmz_admin` VALUES('4','1','renyanting','c3949ba59abbe56e057f','任艳婷','','','','1514423264','172.16.66.35');

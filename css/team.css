@@ -1,0 +1,391 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; font-family:"微软雅黑"; max-width:640px; min-width:320px; margin:0 auto}
+a{ text-decoration:none;}
+p,div,h1,h2,h3,h4,h5,h6,ul,li,span{ margin:0; padding:0}
+li{ list-style:none;}
+
+
+/*头图*/
+.toutu{ width:100%; position:relative;}
+.toutu img{ width:100%; max-width:640px; display:block}
+.tou01{ width:2.5rem; height:2.5rem;display:block; position:absolute; top:0.5rem; left:1%;}
+.tou02{ width:50%; height:3rem;display:block; position:absolute; top:0.5rem; right:0;}
+
+/*banner图*/
+.tupian{ width:100%;}
+.tupian img{ width:100%; max-width:640px;}
+
+/*我们是民众成员，更是您的家人*/
+.fam{ width:100%;}
+.fam01 ul li{ width:100%; position:relative}
+
+.fam01 ul li img{ width:100%; max-width:640px; display:block; margin:0; padding:0}
+.yellow{ width:50%;position:absolute; top:0; right:1.5%; background-color:rgba(195,179,136,0.6); padding-bottom:1.5rem}
+.yellow h1{ color:#7e704e; font-size:1.5rem; font-weight:normal; text-align:center;padding-top:1.5rem; padding-bottom:0.5rem;}
+.yellow h1 span{ font-size:1.1rem;}
+.yellow h2{ color:#FFF; font-size:1.3rem; font-weight:normal; text-align:center; border-bottom:1px dashed #FFF; width:85%; margin:0 auto; padding-bottom:0.3rem}
+.yellow p{ color:#FFF; font-size:0.9rem; line-height:1.3rem; width:85%; margin:0 auto; text-indent:2em;}
+.yellow a{ width:40%; height:2rem; line-height:2rem; text-align:center; color:#FFF; font-size:0.9rem; display:block; margin:0 auto; margin-top:0.8rem; border-radius:4px; background-color:#ffb400}
+.fam02{ width:7rem; margin:0 auto; }
+.fam02 ul{ width:100%; overflow:hidden}
+.fam02 ul li{ width:1.8rem; height:0.5rem; background-color:#ada386; float:left; margin-left:0.5rem; cursor:pointer; font-size:0} 
+.fam02 ul .on{ background-color:#e0e0e0}
+
+/*护理团队*/
+.huli{ width:100%; background-image:url(../images/whuli_06.jpg); background-size:100%; background-repeat:no-repeat; margin-top:1rem; position:relative; padding-bottom:3rem}
+.huli01{ width:82.5%; margin:0 auto; padding-top:5.5rem;}
+.huli ul{ width:100%; margin:0 auto; }
+.huli ul li{ width:100%; overflow:hidden; padding-bottom:2rem}
+.huli ul li h1{ width:45%; font-weight:normal; float:right; margin-right:5%}
+.huli ul li h1 p{ text-align:center; color:#FFF; font-size:1.3rem; line-height:2.5rem;}
+.huli ul li h1 span{color:#FFF; font-size:0.9rem; line-height:1.3rem; color:#6c6c6c; display:block; width:90%; margin:0 auto; margin-top:1.5rem}
+.huli .prev{ width:8%;height:4rem; position:absolute; left:1%; top:9.8rem; cursor:pointer}
+.huli .next{ width:8%; height:4rem; position:absolute; right:1%; top:9.8rem; cursor:pointer}
+
+.hl01{ width:100%; background-image:url(../images/whulia1_07.jpg); background-size:100%; background-repeat:no-repeat}
+.hl02{ width:100%; background-image:url(../images/whulia2_07.jpg); background-size:100%; background-repeat:no-repeat}
+.hl03{ width:100%; background-image:url(../images/whulia3_07.jpg); background-size:100%; background-repeat:no-repeat}
+.hl04{ width:100%; background-image:url(../images/whulia4_07.jpg); background-size:100%; background-repeat:no-repeat}
+.huli h3{ width:20%;position:absolute; bottom:0; left:35%}
+.huli h3 img{ width:100%; max-width:126px; }
+
+/*客服团队*/
+.kefuteam{ width:100%; background-image:url(../images/kefuteam_06.jpg); background-size:100%; background-repeat:no-repeat; margin-top:1rem;}
+.kefuteam ul{ width:97%; margin:0 auto; overflow:hidden}
+.kefuteam ul li{ width:31.6%; float:left}
+.ke01 img{ width:100%; max-width:194px;}
+.ke02 img{ width:100%; max-width:194px;}
+.ke02 { margin-left:2.5%; margin-top:5rem}
+.ke03 { margin-left:2.5%; margin-top:4.3rem;}
+.ke03 img{ width:100%; max-width:194px;}
+.ke01{ margin-top:4.3rem}
+.ke03 h1{ width:100%; height:11.5rem; background-color:rgba(227,221,205,0.6); max-width:194px;}
+.ke03 h1 p{ font-size:0.9rem; font-weight:normal; line-height:1.3rem; padding:0 5%; padding-top:0.5rem; text-indent:2em;}
+
+/*后勤团队*/
+.houqin01{ width:97%; margin:0 auto;}
+.houqin01 ul{ width:100%; overflow:hidden}
+.hq01{ width:63%;float:left; position:relative}
+.hq01 img{ width:100%; max-width:388px;}
+.hq02{ width:36%;float:right;}
+.hq02 img{ width:100%; max-width:223px;}
+.hq01 p{ width:90%;line-height:1.3rem; color:#FFF; font-size:0.9rem; padding-top:0.5rem; position:absolute; top:0; left:5%}
+.hq01 a{ width:61%;position:absolute; bottom:1rem; text-align:center;left:19%; color:#FFF; font-size:1rem; line-height:2.3rem; display:block}
+
+.houqin02{ width:97%; margin:0 auto; margin-top:0.3rem;}
+.houqin02 ul{ width:100%; overflow:hidden}
+.houqin02 ul li{ width:32.5%; float:left}
+.houqin02 ul li img{ width:100%; max-width:201px;}
+.houqin02 ul li+li{ margin-left:1%}
+
+
+/*民众环境*/
+.huanj{ width:100%; margin-top:0.5rem; position:relative}
+.huanj img{ width:100%; max-width:640px;}
+.huanj h1{ font-size:1.5rem; color:#FFF; font-weight:normal; position:absolute; top:1.8rem; left:10%}
+.huanj h1 span{ font-size:1rem;}
+.hj01 ul li{ position:relative}
+.huanj h2{ font-size:1.7rem; color:#FFF; font-weight:normal; position:absolute; bottom:4rem; left:0%; text-align:center; color:#9e9271; width:100%}
+.hj02{ width:40%; position:absolute; bottom:1.5rem; left:35%;}
+.hj02 ul{ width:100%; margin:0 auto; overflow:hidden}
+.hj02 ul li{ width:3rem; height:0.5rem; background-color:#ada386; float:left; margin-left:0.5rem; cursor:pointer; font-size:0}
+
+.hj02 ul .on{ background-color:#e0e0e0}
+
+/*底部*/
+.bot{ width:100%; background-color:#ccc2a6;}
+.bot h1{overflow:hidden; width:15rem; margin:0 auto;}
+.bot h1 p{ background-image:url(../images/bot01_26.jpg); background-size:1.4rem 1.4rem; background-repeat:no-repeat; width:7rem; float:left; font-size:1rem; font-weight:normal; color:#5b4e29; line-height:1.5rem; text-indent:2em;}
+.bot h1 span{ width:7.5rem; display:block; float:left; font-size:1rem; font-weight:normal; color:#5b4e29; line-height:1.5rem; }
+
+.bot h2{ background-image:url(../images/bot02_26.jpg); background-size:1.1rem 1.5rem; background-repeat:no-repeat; background-position:5rem 0rem; font-size:1rem; font-weight:normal; line-height:1.5rem; text-indent:2em; text-align:center; color:#5b4e29;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
