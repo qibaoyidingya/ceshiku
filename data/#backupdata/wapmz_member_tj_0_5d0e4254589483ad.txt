@@ -1,4 +1,0 @@
-INSERT INTO `wapmz_member_tj` VALUES('1','0','0','0','0','0','0','0','0','0','0','0');
-INSERT INTO `wapmz_member_tj` VALUES('2','0','0','0','0','0','0','0','0','0','0','0');
-INSERT INTO `wapmz_member_tj` VALUES('3','0','0','0','0','0','0','0','0','0','0','0');
-INSERT INTO `wapmz_member_tj` VALUES('4','0','0','0','0','0','0','0','0','0','0','0');
