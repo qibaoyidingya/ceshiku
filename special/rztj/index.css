@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; font-family:"微软雅黑"; max-width:640px; min-width:320px; margin:0 auto}
+a{ text-decoration:none;}
+p,div,h1,h2,h3,h4,h5,h6,ul,li,span{ margin:0; padding:0}
+li{ list-style:none;}
+
+.xl_nav{ top:3.2rem;}
+
+img{ vertical-align:middle;}
+.rx_left{ float:left; display:inline-block;}
+.rx_right{ float:right; display:inline-block;}
+.zt_banner img{ width:100%}
+.rx_a{ width:100%; height:auto; position:relative;}
+.rx_a img{ width:100%;}
+.rx_a p{ width:42%; font-size: 1.0rem; line-height:1.8; color: #FFF; position:absolute; right: 1.0%; top: 20%;}
+.rx_b{ width:100%}
+.rx_b_top{ width:100%; height:auto; position:relative;}
+.rx_b_top img{ width:100%;}
+.rx_b_top .rx_b_top_w{ width:100%; color:#c3b58e; position:absolute; top:1.2rem; text-align:center;}
+.rx_b_top_w h3{ width:100%; font-size:1.5rem; line-height:1.2; font-weight:300;}
+.rx_b_top_w p{ width:100%; font-size:1.0rem; line-height:1.6;}
+.rx_b_body{ width:100%; position:relative;}
+.rx_b_body .bd li{ width:100%}
+.rx_b_body .bd li:after{ display:block; content:""; clear:both;}
+.rx_b_body .bd li div{ width:46.5625%; position:relative;}
+.rx_b_body .bd li div p{ position:absolute; bottom:0%; right:0; padding-bottom:1.0rem; font-size:1.0rem; line-height:1.5; color:#524f50; }
+.rx_b_body .bd li div.rx_left p{ width:80%;}
+.rx_b_body .bd li div.rx_right p{ width:60%;}
+.rx_b_body .bd li img { width:100%;}
+.rx_b_body .button{ width:56%; position:absolute; bottom:-7.5%; right:0}
+.rx_b_body .button ul li{ width:0.9rem; height:0.9rem; margin-left:0.3rem; border-radius:0.5rem; background-color:#aeaeae; float:left; cursor:pointer; font-size:0}
+.rx_b_body .button ul { width:100%; overflow:hidden}
+.rx_b_body .button ul .on{ background-color:#c3b58e}
+.rx_b_fot{ width:100%; padding-bottom:1.8rem;}
+.rx_b_fot img{ width:100%;}
+.rx_two p{ color:#717171}
+.rx_four p{ top:40%;}
+.rx_law{ width:100%; position:relative;}
+.rx_law img{ width:100%;}
+.rx_law div{ width:52.5%; color:#FFF; position:absolute;}
+.rx_law div p{ font-size:1.0rem; line-height:1.2;}
+.rx_law div h4{ font-size:1.35rem; line-height:2.0; font-weight:300;}
+.rx_law a{ display:block; width:7.2rem; height:7.2rem; position:absolute; right:15.625%; bottom:0.5%;}
+.rx_law_1{ right:2.5%; top:15%; margin-top:-0.5rem;}
+.rx_law_2{ left:2.5%; top:31%; margin-top:-0.5rem; text-align:right;}
+.rx_law_3{ right:2.5%; top:47%; margin-top:-0.5rem;}
+.rx_law_4{ left:2.5%; top:63%; margin-top:-0.5rem; text-align:right;}
+.rx_law_5{ right:2.5%; top:79%; margin-top:-0.5rem;}
+

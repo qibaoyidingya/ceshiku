@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; font-family:"微软雅黑"; max-width:640px; min-width:320px; margin:0 auto}
+a{ text-decoration:none;}
+p,div,h1,h2,h3,h4,h5,h6,ul,li,span{ margin:0; padding:0}
+li{ list-style:none;}
+
+
+/*banner图*/
+.tupian{ width:100%;}
+.tupian img{ width:100%; max-width:640px; display:block}
+
+/*位置*/
+.weizhi{ width:100%; margin:0 auto; border-bottom:1px solid #000; line-height:3rem; margin-top:0.5rem}
+.weizhi p{ width:97%; margin:0 auto; background-image:url(../images/lweizhi_05.jpg); background-size:1.55rem 1.5rem; background-repeat:no-repeat; font-size:1rem; color:#393939; background-position:0 0.5rem}
+.weizhi p span{ padding-left:2rem}
+
+
+.main01{ width:100%; margin-top:1rem;}
+.main01 ul{ width:97%; margin:0 auto; overflow:hidden}
+.bancon01{ width:55.3%; float:left;}
+.bancon01 img{ width:100%; max-width:342px;}
+.bancon02{ width:40%; float:right; padding-top:0.8rem;}
+.bancon02 p{ font-size:1.2rem; color:#7e7e7e; line-height:2rem} 
+.bancon02 p span{ color:#c2b48d; padding-right:0.3rem}
+
+/*在线点击了解更多*/
+.geng{ width:97%; margin:0 auto; overflow:hidden; margin-top:1.5rem;} 
+.geng a{ width:48%; float:left; line-height:3rem; text-align:center; color:#FFF; border-radius:6px; font-size:1.1rem; background-color:#afa06a}
+.geng a+a{ background-color:#ffb400; margin-left:4%}
+
+/*半自理老人*/
+.weizhi01{ width:100%; margin:0 auto; border-bottom:1px solid #000; line-height:3rem; margin-top:1rem}
+.weizhi01 p{ width:97%; margin:0 auto; background-image:url(../images/lban_12.jpg); background-size:1.5rem 1.7rem; background-repeat:no-repeat; font-size:1rem; color:#393939; background-position:0 0.5rem}
+.weizhi01 p span{ padding-left:2rem}
+
+.ban{ width:100%; margin-top:1rem;}
+.ban ul{ width:97%; margin:0 auto; overflow:hidden}
+.ban ul li { width:100%; overflow:hidden; padding-bottom:0.5rem; margin-top:1.2rem; border-bottom:1px dashed #d2d2d2}
+.ban ul li h1{ width:41.5%; float:left;}
+.ban ul li h1 img{ width:100%; max-width:256px;}
+.ban ul li div{ width:56%; float:right;}
+
+.ban ul li div h2{ color:#bbab73; font-size:1rem; border-bottom:1px solid #bbab73; line-height:2.5rem; font-weight:normal}
+.ban ul li div p{ color:#767676; font-size:0.8rem; line-height:1.3rem; margin-top:0.5rem;}
+.ban ul li div p a{ color:#d00000}
+.ban ul li div h3{ width:80%; margin:0 auto; overflow:hidden; margin-top:0.8rem}
+.ban ul li div h3 a{ width:46%; line-height:2rem; float:left; color:#FFF; text-align:center; font-size:0.9rem; background-color:#cdc39e; border-radius:6px; font-weight:normal}
+.ban ul li div h3 a+a{ background-color:#c2c2c2; margin-left:8%;} 
+
+
+/*点击查看更多文章*/
+.wen{ font-size:1.2rem; color:#6f6f6f; line-height:3rem; text-align:center}
+.wen a{ color:#6f6f6f;}
+
+.gengwen{ width:97%; margin:0 auto; overflow:hidden; margin-top:1.5rem;} 
+.gengwen a{ width:48%; float:left; line-height:3rem; text-align:center; color:#FFF; border-radius:6px; font-size:1.1rem; background-color:#afa06a}
+.gengwen a+a{ background-color:#ffb400; margin-left:4%; background-image:url(../images/dian01_19.jpg); background-size:1.75rem 1.75rem; background-repeat:no-repeat; background-position:2.4rem 0.8rem; text-indent:2.5em;}
+
+/*底部*/
+
+.bottom{ width:100%; background-color:#ccc2a6; padding-bottom:2rem}
+.bottom ul{ width:97%; margin:0 auto; overflow:hidden}
+.bottom ul li { width:16.6%; float:left; font-size:1rem; padding:1rem 0}
+.bottom ul li a{ display:block; width:100%; border-right:1px solid #837759; color:#837759; line-height:1.2rem; box-sizing:border-box; text-align:center}
+#lasta{ border:none}
+.bottom h1{ width:100%; margin:0 auto; text-align:center; font-size:1rem; font-weight:normal; color:#5b4e29; background-image:url(../images/di01_25.jpg); background-size:1.4rem 1.4rem; background-repeat:no-repeat; line-height:1.6rem; background-position:26% 0.2rem}
+
+.bottom h2{ width:100%; margin:0 auto; text-align:center; font-size:1rem; font-weight:normal; color:#5b4e29; background-image:url(../images/di06_29.jpg); background-size:1.1rem 1.5rem; background-repeat:no-repeat; line-height:1.8rem;background-position:13% 0.2rem}
+.bottom h3{ width:25.5%; margin:0 auto;margin-top:1rem; }
+.bottom h3 img{ width:100%; max-width:163px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

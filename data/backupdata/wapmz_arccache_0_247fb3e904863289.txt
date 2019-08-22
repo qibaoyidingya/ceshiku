@@ -1,0 +1,1 @@
+INSERT INTO `wapmz_arccache` VALUES('272c8eccd609843f2224662d82ee297e','1520409948','7');
